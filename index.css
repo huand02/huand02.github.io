@@ -1,0 +1,64 @@
+body{
+    background-image: url("pastelBlue.jpg");
+    background-color: lemonchiffon;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: inherit;
+    font-family: 'Hind-Vadodara', sans-serif;
+    font-size: 24px;
+
+    font-style: italic;
+    color: firebrick;
+}
+
+#indextext {
+    font-weight: 200;
+    text-align: left;
+    font-stretch: expanded;
+}
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightcyan;
+        
+}
+
+#nav li{
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:black;
+    
+}
+#nav li:hover{
+    background-color:mintcream;
+}
+
+
+h1{
+    line-height: 8px;
+    margin-right: 40%;
+}
+
+#content{
+    
+    border: palevioletred solid;
+    width: 100%;
+    text-align: right;
+    margin-top:30px;
+}
+
+#socialMedia {
+    border: thin;
+    position: absolute;
+   right: 544px;
+   bottom:30px;
+   height:30px;
+}

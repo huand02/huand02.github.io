@@ -1,0 +1,60 @@
+body {
+   background-image: url("background.jpg");
+    background-color: lemonchiffon;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: firebrick;
+    
+}
+
+    
+
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightcyan;
+        
+}
+
+#nav li{
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:black;
+    
+}
+#nav li:hover{
+    background-color:mintcream;
+}
+
+#content{
+    border: palevioletred solid;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    margin-bottom: 17px;
+    text-align: center;
+    background-color:rgba (225, 225, 0.5);
+}
+
+
+table {
+    margin: auto;
+    
+}
+#content ul, #content ol {
+    width: 25%;
+    margin: auto;
+}
